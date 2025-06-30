@@ -29,6 +29,7 @@ Install dependencies:
 pip install scapy plotext
 
 Usage
+
 python3 inspector.py --iface <interface> [--filter <protocol>] [--count <n>]
 
 ARGUMENTS
