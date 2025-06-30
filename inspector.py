@@ -50,7 +50,7 @@ def packet_callback(pkt):
 
 # === Graph Drawing ===
 def draw_graph():
-    plt.clear_plot()
+    plt.clear_figure()
     plt.bar(protocol_counts.keys(), protocol_counts.values())
     plt.title("Protocol Packet Count Summary")
     plt.show()
